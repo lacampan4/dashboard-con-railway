@@ -4,7 +4,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://prueba-k6t5.onrender.com/api/:path*"
+      "destination": "dashboard-con-railway-production.up.railway.app*"
     }
   ]
 }
