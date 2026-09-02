@@ -15,7 +15,7 @@
   // frontend/vercel.json, es dasboard-lacampana.onrender.com — y ninguna
   // página definía window.LC_API_BASE para corregirlo, así que todos los
   // dashboards estaban intentando hablar con el backend equivocado.
-  const API_BASE = (window.LC_API_BASE || 'https://prueba-k6t5.onrender.com').replace(/\/$/, '');
+  const API_BASE = (window.LC_API_BASE || 'dashboard-con-railway-production.up.railway.app').replace(/\/$/, '');
 
   // Rango por defecto la primera vez que alguien usa el navegador:
   // últimos 30 días. Después de eso, se respeta lo último que el usuario
